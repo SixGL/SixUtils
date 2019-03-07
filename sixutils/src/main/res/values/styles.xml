@@ -1,0 +1,6 @@
+<resources>
+
+    <declare-styleable name="TextView">
+        <attr name="removeDefaultPadding" format="boolean"/>
+    </declare-styleable>
+</resources>
