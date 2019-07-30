@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context="cm.six.MainActivity">
 
-    <com.six.view.TextView
+    <c.six.view.STextView
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:text="Hello"
+        android:text="无内边距"
         android:textSize="25sp"
         app:removeDefaultPadding="true" />
 
@@ -19,7 +19,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
         android:background="@color/colorAccent"
-        android:text="Hello"
+        android:text="有内边距"
         android:textSize="25sp" />
-</RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pdf"
+        android:text="pdf" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="txt"
+        android:text="txt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="xlsx"
+        android:text="xlsx" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doc"
+        android:text="doc" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="fastclick"
+        android:text="防止快速点击+有无网络" />
+
+</LinearLayout>

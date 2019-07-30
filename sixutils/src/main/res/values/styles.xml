@@ -1,6 +1,6 @@
 <resources>
 
-    <declare-styleable name="TextView">
+    <declare-styleable name="STextView">
         <attr name="removeDefaultPadding" format="boolean"/>
     </declare-styleable>
 </resources>

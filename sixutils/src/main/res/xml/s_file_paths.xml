@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-cache-path
+        name="images"
+        path="Pictures/" />
+    <files-path
+        name="name"
+        path="path" />
+    <cache-path
+        name="name"
+        path="path" />
+    <!--对应的文件夹是 getCacheDir().-->
+    <external-path
+        name="name"
+        path="path" />
+    <!--对应的文件夹是 Environment.getExternalStorageDirectory().-->
+    <external-files-path
+        name="name"
+        path="path" />
+    <!-- 对应的文件夹是 Context.getExternalFilesDir(null).-->
+    <external-cache-path
+        name="name"
+        path="path" />
+    <!--  对应的文件夹是 Context.getExternalCacheDir().-->
+    <external-path name="images" path="."/>
+
+    <!--照片-->
+    <external-path
+        name="my_images"
+        path="Pictures"/>
+    <!--下载-->
+    <paths>
+        <external-path
+            name="download"
+            path=""/>
+    </paths>
+
+</paths>
+
